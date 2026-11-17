@@ -1,0 +1,39 @@
+{
+  "name": "Bella Napoli Pizzeria",
+  "type": "neighborhood pizzeria",
+  "currency": "$",
+  "phone": "+1 555 0123",
+  "address": "123 Main Street, Springfield",
+  "hours": {
+    "Monday to Thursday": "12:00 - 22:00",
+    "Friday and Saturday": "12:00 - 23:30",
+    "Sunday": "13:00 - 21:00"
+  },
+  "delivery": {
+    "fee": 2.5,
+    "time": "30-45 minutes",
+    "area": "within 4 km of the restaurant"
+  },
+  "pickupTime": "15-20 minutes",
+  "payment": "Cash or card, paid on delivery or at pickup",
+  "menu": [
+    { "id": "margherita", "category": "Pizzas", "name": "Margherita", "price": 9.5, "description": "Tomato, fresh mozzarella, basil", "vegetarian": true },
+    { "id": "pepperoni", "category": "Pizzas", "name": "Pepperoni", "price": 11, "description": "Tomato, mozzarella, spicy pepperoni", "vegetarian": false },
+    { "id": "quattro", "category": "Pizzas", "name": "Quattro Formaggi", "price": 12.5, "description": "Mozzarella, gorgonzola, parmesan, provolone", "vegetarian": true },
+    { "id": "veggie", "category": "Pizzas", "name": "Veggie Supreme", "price": 11.5, "description": "Peppers, mushrooms, olives, red onion, mozzarella", "vegetarian": true },
+    { "id": "diavola", "category": "Pizzas", "name": "Diavola", "price": 11.5, "description": "Tomato, mozzarella, spicy salami, chili oil", "vegetarian": false },
+    { "id": "garlicbread", "category": "Sides", "name": "Garlic Bread", "price": 4.5, "description": "Baked with garlic butter and herbs", "vegetarian": true },
+    { "id": "caesar", "category": "Sides", "name": "Caesar Salad", "price": 6.5, "description": "Romaine, parmesan, croutons, Caesar dressing", "vegetarian": false },
+    { "id": "cola", "category": "Drinks", "name": "Cola", "price": 2.5, "description": "330 ml can", "vegetarian": true },
+    { "id": "water", "category": "Drinks", "name": "Sparkling Water", "price": 2, "description": "500 ml bottle", "vegetarian": true },
+    { "id": "lemonade", "category": "Drinks", "name": "Homemade Lemonade", "price": 3, "description": "Fresh lemons, mint", "vegetarian": true },
+    { "id": "tiramisu", "category": "Desserts", "name": "Tiramisu", "price": 5.5, "description": "Classic recipe with mascarpone and espresso", "vegetarian": true }
+  ],
+  "faqs": [
+    { "q": "Do you have gluten-free options?", "a": "Gluten-free crust is not available yet. The Caesar Salad can be served without croutons." },
+    { "q": "Do you have vegetarian options?", "a": "Yes: Margherita, Quattro Formaggi and Veggie Supreme are vegetarian." },
+    { "q": "Can I make a reservation?", "a": "We are takeaway and delivery only, so reservations are not needed." },
+    { "q": "Is there a minimum order for delivery?", "a": "No minimum order. Delivery costs a flat fee." },
+    { "q": "Can I customize my pizza?", "a": "Yes, write your request in the notes step when placing the order (extra cheese, no onion, etc.)." }
+  ]
+}
